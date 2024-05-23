@@ -67,7 +67,7 @@ span.tag-cloud {
   display: inline;
 }
 .tag-cloud.active {
-  background: #ccc;
+  background: #ff0000;
 }
 .project-item.not-show {
   display: none;
@@ -76,5 +76,5 @@ a.project-detail:hover {
   text-decoration: none;
 }
 a.project-detail:hover h3 {
-  color: #62A253;
+  color: #ffffff;
 }
