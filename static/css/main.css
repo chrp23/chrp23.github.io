@@ -1,10 +1,10 @@
 body {
   font-family: "Roboto Condensed", Arial, sans-serif;
-  background: #3cb371;
+  background: #e7c38c;
   line-height: 1.5em;
   font-weight: 300;
   font-size: 16px;
-  color: #666;
+  color: #fc1515;
 }
 hr {
   margin-top: 20px;
@@ -41,7 +41,7 @@ a:hover {
 
 /* Layout */
 .main-layout {
-  background: #e43975;
+  background: #b5b229;
 }
 .sidebar-nav {
   margin: 0;
