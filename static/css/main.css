@@ -35,7 +35,7 @@ a, a:link, a:active {
   color: #000000;
 }
 a:hover {
-  color: #BC6C25;
+  color: #595653;
   text-decoration: underline;
 }
 
@@ -91,7 +91,7 @@ div.col-sm-3 {
 }
 div.col-sm-3 strong {
   font-size: 16px;
-  color: #BC6C25;
+  color: #000000;
   font-weight: normal;
 }
 div.col-sm-3 div.profile-about {
