@@ -2,9 +2,7 @@
 layout: post
 title: '"fourth test"'
 date: 2024-05-27 10:15:00 +0700
-categories:
-  - Oranges
-  - Bananas
+categories: [Oranges, Bananas]
 ---
 
 hello world hello world.
