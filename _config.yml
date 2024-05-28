@@ -50,7 +50,7 @@ per_page: 20
 paginate_path: "/page/:num/"
 markdown: kramdown
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-gist
 
 compress_html:
@@ -60,4 +60,11 @@ compress_html:
   ignore:
     envs: ['development']
 
-
+pagination:
+  enabled: true
+  per_page: 10
+  sort_field: "date"
+  sort_reverse: true
+  collections:
+    - posts
+    - blog
