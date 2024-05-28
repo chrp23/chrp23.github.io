@@ -9,3 +9,9 @@ hello world hello world.
 
 	This is another example line
 		followed by another. 
+
+<h2>My Blog Post</h2>
+
+<p>Here is an image from S3:</p>
+
+<img src="https://myblogphotobucket1.s3.amazonaws.com/hawaii_photo.jpg" alt="Hawaii Image">
