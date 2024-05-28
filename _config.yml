@@ -43,9 +43,10 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://chrp23.github.io/"
+url: "https://github.com/chrp23"
 baseurl: ""
-
+paginate: 20
+per_page: 20
 paginate_path: "/page/:num/"
 markdown: kramdown
 plugins:
