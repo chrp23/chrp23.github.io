@@ -6,6 +6,9 @@ layout: default
   <h1>{{ site.title }}</h1>
   <hr />
 
+  {% assign all_posts = site.posts | concat: site.blog | sort: 'date' | reverse %}
+  {% assign paginated_posts = all_posts | slice: 0, paginator.per_page %}
+
   <ol class="posts">
     {% for post in paginator.posts %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>

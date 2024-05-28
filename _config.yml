@@ -13,6 +13,9 @@ collections:
   project:
     output: true
     permalink: /project/:path/
+  blog:
+    output: true
+    permalink: /blog/ :path/
 
 social:
     - icon: fa-facebook
@@ -56,3 +59,5 @@ compress_html:
   endings: all
   ignore:
     envs: ['development']
+
+
