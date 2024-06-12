@@ -14,7 +14,6 @@ layout: default
 
 <div class="content">
   <div class="post">{{ content }}</div>
-  {% include share-page.html %}
 </div>
 
 {% assign hasSimilar = '' %}
@@ -26,7 +25,7 @@ layout: default
             {% if hasSimilar.size == 0 %}
             <div class="panel-body">
               <h4>Related Posts</h4>
-              <ul>
+              <ol>
             {% endif %}
                 <li class="relatedPost">
                   <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
@@ -41,7 +40,7 @@ layout: default
     {% endfor %}
   {% endfor %}
   {% if hasSimilar.size > 0 %}
-  </ul>
+  </ol>
 </div>
 {% endif %}
 
@@ -54,7 +53,7 @@ layout: default
   {% endif %}
 </div>
 
-<div class="disqus-comments">
+<!-- <div class="disqus-comments">
   <div id="disqus_thread"></div>
   <script type="text/javascript">
     /* <![CDATA[ */
@@ -70,4 +69,4 @@ layout: default
     })();
     /* ]]> */
   </script>
-</div>
+</div> -->
