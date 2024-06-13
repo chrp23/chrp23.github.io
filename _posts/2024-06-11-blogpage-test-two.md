@@ -1,8 +1,5 @@
 ---
 
----
----
-
 layout: "post"
 title: "Testing out Oranges"
 categories: Oranges
