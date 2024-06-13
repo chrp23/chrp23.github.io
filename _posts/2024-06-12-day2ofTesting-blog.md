@@ -8,3 +8,5 @@ categories:
 
 
 This is simply another test to see if my obsidian app is able to commit to my github repo
+
+Juni is very cool. Carmen is ok.
