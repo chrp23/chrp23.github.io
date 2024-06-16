@@ -1,10 +1,10 @@
 /* roboto-condensed-300 - latin-ext_latin */
 @font-face {
-  font-family: 'OpenSans';
+  font-family: 'Mukta';
   font-style: normal;
   font-weight: 300;
-  src: local('OpenSans Light'), local('Opensans-Light'),
-       url('../fonts/OpenSans-Light.ttf') format('truetype'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  src: local('Mukta'), local('Mukta-Light'),
+       url('../fonts/Mukta-Light.ttf') format('truetype'), /* Chrome 26+, Opera 23+, Firefox 39+ */
 }
 
 /* roboto-condensed-300italic - latin-ext_latin */
