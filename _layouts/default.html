@@ -115,48 +115,50 @@ layout: compress
   </head>
   <body>
     <div class="container">
-      <div class="col-sm-3">
-        <div class="fixed-condition">
-          <h1 class="author-name"><a href="/">{{ site.author }}</a></h1>
-          {% if site.about %}
-            <div class="profile-about">
-              {{ site.about }}
+      <div class ="row">
+        <div class="col-sm-3">
+          <div class="fixed-condition">
+            <h1 class="author-name"><a href="/">{{ site.author }}</a></h1>
+            {% if site.about %}
+              <div class="profile-about">
+                {{ site.about }}
+              </div>
+            {% endif %}
+            <div class="social">
+              <ul>
+                {% for link in site.social %}
+                  <li><a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a></li>
+                {% endfor %}
+              </ul>
             </div>
-          {% endif %}
-          <div class="social">
-            <ul>
-              {% for link in site.social %}
-                <li><a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a></li>
+            <div class="search" id="js-search">
+              <input type="text" placeholder="type to search" class="search__input form-control" id="js-search__input">
+              <ul class="search__results" id="js-search__results"></ul>
+            </div>
+            <hr />
+            <ul class="sidebar-nav">
+              <strong>Navigation</strong>
+              <li><a href="/">Home</a></li>
+              {% for i in site.urls %}
+                <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
               {% endfor %}
             </ul>
           </div>
-          <div class="search" id="js-search">
-            <input type="text" placeholder="type to search" class="search__input form-control" id="js-search__input">
-            <ul class="search__results" id="js-search__results"></ul>
-          </div>
-          <hr />
-          <ul class="sidebar-nav">
-            <strong>Navigation</strong>
-            <li><a href="/">Home</a></li>
-            {% for i in site.urls %}
-              <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
-            {% endfor %}
-          </ul>
+          <!-- end /.fixed-condition -->
         </div>
-        <!-- end /.fixed-condition -->
-      </div>
-      <div class="col-sm-8 col-offset-1 main-layout">
-        {{ content }}
-        <footer>
-          &copy; {{ site.author }}
-          {% if site.github %}
-            - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Jekyll.
-          {% endif %}
-          <div class="btn-github" style="float:right;">
-            <iframe src="https://ghbtns.com/github-btn.html?user=chrp23&repo=chrp23.github.io&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
-            <iframe src="https://ghbtns.com/github-btn.html?user=chrp23&repo=chrp23.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
-          </div>
-        </footer>
+        <div class="col-sm-8 col-offset-1 main-layout">
+          {{ content }}
+          <footer>
+            &copy; {{ site.author }}
+            {% if site.github %}
+              - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Jekyll.
+            {% endif %}
+            <div class="btn-github" style="float:right;">
+              <iframe src="https://ghbtns.com/github-btn.html?user=chrp23&repo=chrp23.github.io&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+              <iframe src="https://ghbtns.com/github-btn.html?user=chrp23&repo=chrp23.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+            </div>
+          </footer>
+        </div>
       </div>
       <!-- end /.col-sm-8 -->
     </div>
