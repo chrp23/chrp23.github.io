@@ -1,5 +1,5 @@
 body {
-  font-family: "Dancing Script", Arial, sans-serif;
+  font-family: "Pacifico", Arial, sans-serif;
   background: #FEFAE0;
   line-height: 1.5em;
   font-weight: 300;
@@ -62,7 +62,7 @@ div.content pre {
   padding: 10px;
   color: #FFF;
   overflow-x: auto;
-  font-family: Mukta, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: 'Pacifico', Mukta, Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: 12px;
   border: 4px dashed blue;
 }
