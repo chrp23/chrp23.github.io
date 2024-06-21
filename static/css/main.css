@@ -7,7 +7,7 @@ body {
   color: #000000;
 }
 hr {
-  margin-top: 20px;
+  margin-top: 100px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #F7F1F1;
@@ -26,9 +26,10 @@ h1, h2, h3 {
 }
 h1 {
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 35px;
 }
 h2, h3 {
+  font-size: 35px;
   margin-bottom: 5px;
 }
 a, a:link, a:active {
@@ -63,7 +64,7 @@ div.content pre {
   padding: 10px;
   color: #FFF;
   overflow-x: auto;
-  font-family: 'Pacifico', Mukta, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: 'Ubuntu Sans', Mukta, Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: 12px;
   border: 4px dashed blue;
 }
@@ -86,7 +87,7 @@ div.post-content .btn-tags {
 
 /* Left column */
 div.col-sm-3 {
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 11px;
   color: #8e9505;
 }
