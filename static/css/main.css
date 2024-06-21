@@ -1,5 +1,5 @@
 body {
-  font-family: 'Playwrite NZ', Arial, sans-serif;
+  font-family: 'Ubuntu Sans', Arial, sans-serif;
   background: #FEFAE0;
   line-height: 1.5em;
   font-weight: 300;
@@ -20,6 +20,7 @@ span.time, span.categories {
   text-transform: uppercase;
 }
 h1, h2, h3 {
+  font-family: 'Noto Sans Display';
   color: #000000;
   font-weight: normal;
 }
